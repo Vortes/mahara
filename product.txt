@@ -1,0 +1,31 @@
+Mahara Aesthetic Design Summary
+The design philosophy for Mahara was to translate the tactile warmth of handcrafted plushies into a digital experience. Every design decision—from color palettes to interaction models—was chosen to spark "warmth and joy."
+
+1. Color Palette: "Soft & Earthy"
+We moved away from stark blacks and whites to creating a softer, more inviting atmosphere.
+
+Backgrounds: Used Cream (#FDFBF7) instead of pure white. This mimics the color of natural cotton or paper, reducing eye strain and feeling more organic.
+Primary Accents: Terracotta (#E07A5F) provides a warm, earthy pop of color that feels energetic but grounded.
+Secondary Tones:
+Sage (#A3C9A8) and Sage Light (#E7F1E1) introduce a calming, natural element, reminiscent of garden leaves.
+Blush (#FFD6D6) adds a gentle, friendly touch used for key interactions and "love" elements (hearts).
+Text: Charcoal (#2D2A26) is used instead of pure black for softer contrast and readability.
+2. Typography: "Friendly & Clean"
+The font pairing was selected to balance personality with readability.
+
+Headings: Fredoka. This font is rounded and bubbly, mirroring the soft curves of the crochet plushies. It feels approachable and playful.
+Body: Outfit. A geometric sans-serif that is highly legible but retains a modern, friendly character. It complements Fredoka without competing for attention.
+3. Shapes & Layout: "The Soft Touch"
+Sharp corners feel rigid and corporate. For Mahara, we embraced softness.
+
+Super-Rounded Corners: We used rounded-3xl (approx 24px-48px) for cards, buttons, and sections. This "bubbly" interface invites users to "touch" the elements.
+Floating Elements: Cards and sections use subtle shadows and hover lifts (hover:translate-y) to feel lightweight and tactile, like objects you can pick up.
+Organic Blobs: The background features blurred, glowing orbs (Sage, Sand, White) that drift behind the content, creating a dream-like, cozy ambiance.
+4. Motion & Interactivity: "Alive & Playful"
+Interactions are designed to be delightful micro-moments.
+
+Hover States: Buttons don't just change color; they lift up or scale slightly (scale: 1.05), providing satisfying feedback.
+Page Transitions: Elements fade in and slide up (y: 20 to y: 0) as you scroll, giving the impression that the content is gently rising to meet you.
+Filtering: The product grid uses framer-motion layout animations, so items shuffle and reorganize organically rather than instantly snapping, making the sorting process feel like a playful rearrangement of toys.
+5. Imagery: "High-Key Warmth"
+Product Photography: Generated images use "soft pastel high-key lighting" to ensure the plushies look soft, detailed, and inviting. The white/cream backgrounds blend seamlessly with the app's design.
