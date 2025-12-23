@@ -134,7 +134,7 @@ export default function Home() {
 				{/* Value Propositions Section */}
 				<section className="py-24 bg-cream">
 					<div className="container mx-auto px-4 sm:px-6 lg:px-8">
-						<div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+						<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 							{/* Prop 1: Solo Owned */}
 							<motion.div
 								initial={{ opacity: 0, y: 20 }}
